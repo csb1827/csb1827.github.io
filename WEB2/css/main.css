@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}*/
+
+@font-face {
+	font-family: Pacifico;
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+body {
+	background-color: #716F81;
+	font-family: Pacifico;
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #F6AE99;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 0 0 10px 1px rgba(0,0,0, 0.2);
+	justify-content: center;
+	              /*space-between
+					flex-start
+					flex-end*/
+
+}
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: #F2E1C1;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+}
+
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0, 0.6);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 58px;
+}
+
+.photo1 {
+	background-image: url(../img/img1.jpeg);
+}
+
+.photo2 {
+	background-image: url(../img/img2.jpeg);
+}
+
+.photo3 {
+	background-image: url(../img/img3.jpeg);
+}
+
+.photo4 {
+	background-image: url(../img/img4.jpeg);
+}
+
+.photo5 {
+	background-image: url(../img/img5.jpeg);
+}
+
+.photo6 {
+	background-image: url(../img/img6.jpeg);
+}
+
+.photo7 {
+	background-image: url(../img/img7.jpeg);
+}
+
+.photo8 {
+	background-image: url(../img/img8.jpeg);
+}
+
+.photo9 {
+	background-image: url(../img/img9.jpeg);
+}
+
+.photo10 {
+	background-image: url(../img/img10.jpeg);
+}
+
+.photo11 {
+	background-image: url(../img/img11.jpg);
+}
+
+.photo12 {
+	background-image: url(../img/img12.jpeg);
+}
